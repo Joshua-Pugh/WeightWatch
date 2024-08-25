@@ -1,8 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.WeightWatch" parent="Theme.Material3.DayNight">
-        <item name="colorPrimary">@color/royal_blue</item>
-    </style>
-
-    <style name="Theme.WeightWatch" parent="Base.Theme.WeightWatch" />
-</resources>
