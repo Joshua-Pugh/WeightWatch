@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="200sp"
+    tools:context=".activity.DailyWeightScreen">
+
+    <TextView
+        android:id="@+id/goalWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:letterSpacing="0.05"
+        android:text="@string/goal_weight"
+        android:textColor="@color/orange"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/scaleBathroom" />
+
+    <ImageView
+        android:id="@+id/scaleBathroom"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:contentDescription="@string/scalebathroom"
+        android:src="@drawable/scale_bathroom_color"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/etGoalWeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goalWeight" />
+
+    <TextView
+        android:id="@+id/tvCurrentGoalWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="invisible"
+        android:layout_marginTop="16dp"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scaleBathroom"/>
+
+
+    <Button
+        android:id="@+id/btnDeleteGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/delete_goal_weight"
+        app:layout_constraintTop_toBottomOf="@id/tvCurrentGoalWeight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <EditText
+        android:id="@+id/etGoalWeight"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@drawable/border"
+        android:visibility="visible"
+        android:hint="@string/enter_your_goal_weight"
+        android:inputType="numberDecimal"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scaleBathroom" />
+
+    <Button
+        android:id="@+id/btnSubmitGoalWeight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:text="@string/submit"
+        app:layout_constraintTop_toBottomOf="@id/etGoalWeight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
