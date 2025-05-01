@@ -1,7 +1,7 @@
 # CS-360-Mobile-Architect-Programming
 
 # Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
-The app required A database with at least three tables: one to store the daily weight, one to store user logins and passwords, and one to store the goal weight. It also needed a screen for logging into the app, a screen with a grid that displays all the daily weights and the days they were entered, a mechanism by which the user can add a daily weight, a mechanism by which the user can add a goal weight and a mechanism by which the application will notify the user when they reach their goal weight. The app was designed to address users' needs to allow them to track their weight and work towards a goal weight easily.
+The app required a database with at least three tables: one to store the daily weight, one to store user logins and passwords, and one to store the goal weight. It also needed a screen for logging into the app, a screen with a grid that displays all the daily weights and the days they were entered, a mechanism by which the user can add a daily weight, a mechanism by which the user can add a goal weight and a mechanism by which the application will notify the user when they reach their goal weight. The app was designed to address users' needs to allow them to track their weight and work towards a goal weight easily.
 
 # What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
 Screens and Features:
