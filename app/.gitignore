@@ -1,2 +1,33 @@
+local.properties
 # Ignore Gradle files
-.gra
+.gradle/
+
+# Ignore build output
+/build/
+app/build/
+
+# Ignore IDE settings
+.idea/
+*.iml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore crash reports
+*.stacktrace
+
+# Ignore signing keys
+*.jks
+
+# Android Studio specific
+*.apk
+*.ap_
+captures/
+output.json
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
