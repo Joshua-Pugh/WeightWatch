@@ -27,7 +27,7 @@ It’s designed with a clean and responsive interface, offering persistent data 
 
 ## 🎥 Demo
 A 2-minute demo video showcasing core features is available on my portfolio site:  
-👉 [**joshuapugh.dev**](https://joshuapugh.dev) *(or replace with your actual site link once live)*  
+👉 [**joshuapugh.dev**](https://joshuapugh.dev)  
 
 ---
 
